@@ -1363,6 +1363,14 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-native@0.57.36":
+  version "0.57.36"
+  resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.57.36.tgz#b8e8c2c119fd0f9227f32ee260b7abf223f47960"
+  integrity sha512-6u2WWupQ+mVRsICZqiy3BCGi9vivluhut/+Z1dbjXKn9ms9MrCVvnyQ0jyooqhtmtRzquH6mYYNYArGYdEajjg==
+  dependencies:
+    "@types/prop-types" "*"
+    "@types/react" "*"
+
 "@types/react-native@0.57.42":
   version "0.57.42"
   resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.57.42.tgz#06ad92cd1378146402b7667de13cb7b935d194d6"
@@ -10738,6 +10746,62 @@ react-native-web@^0.10.0:
     prop-types "^15.6.0"
     react-timer-mixin "^0.13.4"
 
+react-native@0.59.0-rc.1:
+  version "0.59.0-rc.1"
+  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.59.0-rc.1.tgz#7dd85c1a98fa7a6aa50e80dac52c54cb811556dc"
+  integrity sha512-P7OJMv+n/ZMI1v6zjh2wRagbIHLzORbGBiYOXHoHf8XTDjP15kps+0ccTYTcv5AYI8DA9Atb+jnP6dj6WCy2Tg==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    "@react-native-community/cli" "^1.2.1"
+    absolute-path "^0.0.0"
+    art "^0.10.0"
+    base64-js "^1.1.2"
+    chalk "^2.4.1"
+    commander "^2.9.0"
+    compression "^1.7.1"
+    connect "^3.6.5"
+    create-react-class "^15.6.3"
+    debug "^2.2.0"
+    denodeify "^1.2.1"
+    errorhandler "^1.5.0"
+    escape-string-regexp "^1.0.5"
+    event-target-shim "^1.0.5"
+    fbjs "^1.0.0"
+    fbjs-scripts "^1.0.0"
+    fs-extra "^1.0.0"
+    glob "^7.1.1"
+    graceful-fs "^4.1.3"
+    inquirer "^3.0.6"
+    invariant "^2.2.4"
+    lodash "^4.17.5"
+    metro-babel-register "0.51.0"
+    metro-react-native-babel-transformer "0.51.0"
+    mime "^1.3.4"
+    minimist "^1.2.0"
+    mkdirp "^0.5.1"
+    morgan "^1.9.0"
+    node-fetch "^2.2.0"
+    node-notifier "^5.2.1"
+    npmlog "^2.0.4"
+    nullthrows "^1.1.0"
+    opn "^3.0.2"
+    optimist "^0.6.1"
+    plist "^3.0.0"
+    pretty-format "24.0.0-alpha.6"
+    promise "^7.1.1"
+    prop-types "^15.5.8"
+    react-clone-referenced-element "^1.0.1"
+    react-devtools-core "^3.6.0"
+    regenerator-runtime "^0.11.0"
+    rimraf "^2.5.4"
+    semver "^5.0.3"
+    serve-static "^1.13.1"
+    shell-quote "1.6.1"
+    stacktrace-parser "^0.1.3"
+    ws "^1.1.5"
+    xmldoc "^0.4.0"
+    yargs "^9.0.0"
+
 react-native@^0.55.4:
   version "0.55.4"
   resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.55.4.tgz#eecffada3750a928e2ddd07cf11d857ae9751c30"
@@ -10943,6 +11007,16 @@ react-transform-hmr@^1.0.4:
   dependencies:
     global "^4.3.0"
     react-proxy "^1.1.7"
+
+react@16.8.2:
+  version "16.8.2"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.8.2.tgz#83064596feaa98d9c2857c4deae1848b542c9c0c"
+  integrity sha512-aB2ctx9uQ9vo09HVknqv3DGRpI7OIGJhCx3Bt0QqoRluEjHSaObJl+nG12GDdYH6sTgE7YiPJ6ZUyMx9kICdXw==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    scheduler "^0.13.2"
 
 react@^16.8.2, react@^16.8.6:
   version "16.8.6"
@@ -11498,7 +11572,7 @@ sax@~1.1.1:
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.1.6.tgz#5d616be8a5e607d54e114afae55b7eaf2fcc3240"
   integrity sha1-XWFr6KXmB9VOEUr65Vt+ry/MMkA=
 
-scheduler@^0.13.3, scheduler@^0.13.6:
+scheduler@^0.13.2, scheduler@^0.13.3, scheduler@^0.13.6:
   version "0.13.6"
   resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.13.6.tgz#466a4ec332467b31a91b9bf74e5347072e4cd889"
   integrity sha512-IWnObHt413ucAYKsD9J1QShUKkbKLQQHdxRyw73sw4FN26iWr3DY/H34xGPe4nmL1DwXyWmSWmMrA9TfQbE/XQ==
@@ -12481,6 +12555,11 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
+
+typescript@3.3.3:
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.3.3.tgz#f1657fc7daa27e1a8930758ace9ae8da31403221"
+  integrity sha512-Y21Xqe54TBVp+VDSNbuDYdGw0BpoR/Q6wo/+35M8PAU0vipahnyduJWirxxdxjsAkS7hue53x2zp8gz7F05u0A==
 
 typescript@3.4.1:
   version "3.4.1"

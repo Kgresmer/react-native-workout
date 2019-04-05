@@ -2,7 +2,7 @@ import {useState} from "react";
 import {Button, StyleSheet, Text, View} from "react-native";
 import React from "react";
 
-const App = () => {
+export const App = () => {
     const [count, setCount] = useState(0);
 
     return (
@@ -14,8 +14,6 @@ const App = () => {
         </View>
     );
 };
-
-export default App
 
 const styles = StyleSheet.create({
     container: {
