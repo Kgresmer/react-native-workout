@@ -2,6 +2,8 @@
   "description": "",
   "private": true,
   "main": "index.js",
+  "name": "my-monorepo",
+  "version": "1.0.0",
   "scripts": {
     "test": "echo 'Error' && exit 1"
   },
